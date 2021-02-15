@@ -1,0 +1,23 @@
+.btn-group button {
+  background-color: #1CAC50; 
+  border: 1px solid black; 
+  color: white; 
+  padding: 20px; 
+  cursor: pointer; 
+  float: left; 
+  font-size: 20px;
+  width: 5%
+}
+
+/* Clear floats (clearfix hack) - attributed to w3schools.com*/
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+input {
+  text-align:right;
+  width: 20%
+}
